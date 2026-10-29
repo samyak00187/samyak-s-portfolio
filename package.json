@@ -1,0 +1,16 @@
+{
+  "name": "samyak-jain-portfolio",
+  "productName": "Samyak Jain Portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio of Samyak Jain, AI & ML developer",
+  "author": "Samyak Jain",
+  "main": "main.js",
+  "scripts": { "start": "electron .", "dist": "electron-builder --win portable nsis" },
+  "build": {
+    "appId": "dev.samyakjain.portfolio",
+    "productName": "Samyak Jain Portfolio",
+    "win": { "icon": "icon.png", "target": ["portable", "nsis"] },
+    "files": ["index.html", "main.js", "three.min.js", "og.png", "resume.pdf", "icon.png"]
+  },
+  "devDependencies": { "electron": "^33.2.1", "electron-builder": "^25.1.8" }
+}
