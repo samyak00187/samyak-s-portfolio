@@ -1,3 +1,5 @@
+**Live portfolio:** [Open the website](https://samyak00187.github.io/samyak-s-portfolio/)
+
 # Samyak Jain Portfolio
 
 A personal portfolio showcasing Samyak Jain's work in artificial intelligence, machine learning, and full-stack development. Explore selected projects, technical skills, education, training, and contact information in an interactive portfolio packaged as a Windows desktop app with Electron.
